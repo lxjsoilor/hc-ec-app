@@ -52,10 +52,10 @@
                     loadHtml();
                     loadStyleText(cssText);
                 } else {
-                    window.location.href = "http://android.zhouyibike.com/app-release.apk";
+                    window.location.href = "https://raw.githubusercontent.com/lxjsoilor/appload/master/ec-app.apk";
                 }
             } else if (u.indexOf('iPhone') > -1) { //苹果手机
-                window.location.href = "https://itunes.apple.com/cn/app/id1239249767?mt=8";
+                window.location.href = "https://raw.githubusercontent.com/lxjsoilor/appload/master/ec-app.apk";
             } else if (u.indexOf('Windows Phone') > -1) {
                 //winphone手机
                 alert("机型不匹配！");
@@ -74,7 +74,7 @@
         function loadHtml() {
             var div = document.createElement('div');
             div.id = 'weixin-tip';
-            div.innerHTML = '<p><img src="live_weixin.png" alt="请在微浏览器打开"/></p>';
+            div.innerHTML = '<p><img src="live_weixin.png" alt="请在浏览器打开"/></p>';
             document.body.appendChild(div);
         }
 
