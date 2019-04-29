@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>周翼单车app下载</title>
+    <title>虎彩设备app下载</title>
     <script src="js/bootstrap/js/Jquery.js"></script>
 </head>
 <style type="text/css">
@@ -36,7 +36,7 @@
     <div align="center" style="position: relative;z-index: 100; width: 100%;height: 100%;">
         <img src="img/bg.png" style="margin: 0 auto;position: relative;z-index: 100;">
         <img src="img/fig.gif" alt="" style="position:absolute;left:0px;top:130px;bottom:0px;right:0px;margin: auto;width: 90%;">
-        <a id="imgId" style="position: relative;z-index: 100;"><img src="img/btn.png"></a>
+        <a id="imgId" style="position: relative;z-index: 100;bottom: 20px;"><img src="img/btn.png"></a>
 
 
     </div>
@@ -63,7 +63,9 @@
                     window.location.href = "https://raw.githubusercontent.com/lxjsoilor/appload/master/ec-app.apk";
                 }
             } else if (u.indexOf('iPhone') > -1) { //苹果手机
-                window.location.href = "https://raw.githubusercontent.com/lxjsoilor/appload/master/ec-app.apk";
+                // window.location.href = "https://raw.githubusercontent.com/lxjsoilor/appload/master/ec-app.apk";
+                alert("暂时不支持iOS安装，请使用浏览器打开");
+                window.location.href = "http://ec.hucais.com:8082/index.html#/Login";
             } else if (u.indexOf('Windows Phone') > -1) {
                 //winphone手机
                 alert("机型不匹配！");
